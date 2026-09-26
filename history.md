@@ -1,0 +1,40 @@
+# hjson-cs History
+
+- v4.0.0
+  - Updated to .NET 10 and latest C# features
+  - Performance tuning
+  - Added HjsonConvert with attribute support
+- v3.0.0
+  - add support for single quoted strings
+- v2.1.3
+  - Update ML stringify to match JS
+- v2.1.2
+  - add support for .NET Core
+- v2.1.0
+  - add DSF (domain specific formats), experimental
+- v2.0.5
+  - fix stringify for strings staring with a punctuator char
+- v2.0.3
+  - throw on bad \u char
+- v2.0.2
+  - move to hjson org
+- v2.0.1
+  - add JsonUtil.Qstr()
+- v2.0.0
+  - add stricter check for {}[],: at the start of a quoteless string
+- v1.14.5
+  - add HjsonValue.Load/Parse overloads
+- v1.14.4
+  - fix writer for comment tokens in keyname
+- v1.14.3
+  - fix trailing whitespace in keyname
+- v1.14.2
+  - fix trailing space in quoteless strings
+- v1.14.1
+  - fix root check
+- v1.14.0
+  - add HjsonOptions
+- v1.13.0
+  - fix stringify
+- v1.12.0
+  - optional root braces
